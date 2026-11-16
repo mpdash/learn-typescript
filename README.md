@@ -7,13 +7,12 @@ cd learn-typescript
 2. Add a .gitignore first (important for TypeScript)
 This keeps node_modules and compiled output out of GitHub:
 ```bash
-printf "node_modules/\ndist/\n.env\n" > .gitignore
+printf "node_modules/\ndist/\n.env\n.DS_Store\n" > .gitignore
 ```
 
 3. Initialize Git (only if you haven’t already)
 ```bash
 git init
-git branch -M main
 ```
 
 4. Stage and commit
@@ -39,6 +38,10 @@ git pull origin main --allow-unrelated-histories
 git add .
 git commit -m "Updated code"
 git push
+```
+//OR in one line
+```bash
+git add . && git commit -m "update" && git push
 ```
 
 7. Tips
@@ -72,26 +75,6 @@ Commit package.json, package-lock.json, and tsconfig.json.
 Don’t commit node_modules,dist,.env
 
 
-
-//…create a new repository on the command line:
-```bash
-git init
-git add .
-git commit -m "Updated code"
-git remote add origin https://github.com/mpdash/learn-typescript.git
-git push -u origin main
-```
-//add gitignore file
-```bash
-printf "node_modules/\ndist/\n.env\n" > .gitignore
-```
-
-
-
-//…push an update from local to github repo on the command line:
-```bash
-git add . && git commit -m "update" && git push
-```
 
 //############### Basic TypeScript commands 
 Note: VS Code Extensions 
