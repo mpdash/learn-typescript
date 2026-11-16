@@ -1,5 +1,6 @@
 //###############  GIT Commands
 //…create a new repository on the command line
+```bash
 echo "# learn-typescript" >> README.md
 git init
 git add .
@@ -7,12 +8,14 @@ git commit -m "Updated code"
 git branch -M main
 git remote add origin https://github.com/mpdash/learn-typescript.git
 git push -u origin main
+```
 
 //…or push an existing repository from the command line
+```bash
 git remote add origin https://github.com/mpdash/learn-typescript.git
 git branch -M main
 git push -u origin main
-
+```
 
 //############### Project commands 
 // Run the following commands:
