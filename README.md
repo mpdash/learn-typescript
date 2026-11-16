@@ -18,7 +18,7 @@ git init
 4. Stage and commit
 ```bash
 git add .
-git commit -m "Add TypeScript learning project"
+git commit -m "Creating base $(date '+%Y-%m-%d %H:%M:%S')"
 ```
 
 5. Connect to GitHub and push
@@ -36,15 +36,20 @@ git pull origin main --allow-unrelated-histories
 6. For later changes, the routine is:
 ```bash
 git add .
-git commit -m "Updated code"
+git commit -m "update $(date '+%Y-%m-%d %H:%M:%S')"
 git push
 ```
 //OR in one line
 ```bash
-git add . && git commit -m "update" && git push
+git add . && git commit -m "update $(date '+%Y-%m-%d %H:%M:%S')" && git push
 ```
 
-7. Tips
+7. Before you start work run "git pull" helps you avoid the divergence
+```bash
+git pull 
+```
+
+8. Tips
 Run before committing to check what’s staged.
 ```bash
 git status
