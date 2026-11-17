@@ -1,3 +1,18 @@
+// Normal function
+function greet(){
+    console.log("Hello Normal Function");
+}
+greet();
+
+// Arrow function
+const greetArrow = (txt:string) => {
+    console.log(`Hello ${txt}`);
+}
+greetArrow("TypeScript");
+
+const square = (num:number) => num * num;
+console.log(square(5));
+
 // //define function type
 // let subtract : (a:number, b:number) => number;
 // //function implementation
@@ -43,12 +58,28 @@
 
 
 
-//with interface
-interface Multiple {
-    (a: number, b: number): number;
-}
+// //with interface
+// interface Multiple {
+//     (a: number, b: number): number;
+// }
 
-let multiplynumber: Multiple = (a, b) => {
-    return a * b;
-}
-console.log(multiplynumber(30, 20));
+// let multiplynumber: Multiple = (a, b) => {
+//     return a * b;
+// }
+// console.log(multiplynumber(30, 20));
+
+
+// //assign type to object 
+// let usr : {
+//     name: string,
+//     age: number
+// }
+
+// // using object
+// usr = {
+//     name: "John",
+//     age: 30
+// }
+// console.log(usr.name);
+// console.log(usr.age);
+

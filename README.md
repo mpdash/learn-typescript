@@ -79,6 +79,23 @@ If git init was already done, skip step 3. Running it again is harmless, but git
 Commit package.json, package-lock.json, and tsconfig.json. 
 Don’t commit node_modules,dist,.env
 
+9. Typical feature workflow
+```bash
+git checkout main
+git pull
+git checkout -b feature/login
+
+# Make and commit your changes
+git add .
+git commit -m "Add login feature"
+
+# Update the feature branch with main
+git rebase main
+
+# Integrate the feature branch
+git checkout main
+git merge feature/login
+```
 
 
 //############### Basic TypeScript commands 
