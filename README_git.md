@@ -89,7 +89,7 @@ git branch -d branch1
 
 7. Repeat for the next task
 ```bash
-git switch -c next-task-name
+git switch -c branch2
 ```
 
 
