@@ -73,7 +73,7 @@ Go to your repo on GitHub. A yellow banner appears: Compare & pull request. Clic
 Add a title and short description.  
 Click Create pull request.  
 Review the Files changed tab to check your changes.  
-Click Merge pull request, then Confirm merge. 
+Click Merge pull request, then Confirm merge.  
 Click Delete branch (GitHub offers this right after merging).
 
 
