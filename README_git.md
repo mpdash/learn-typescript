@@ -127,7 +127,7 @@ Then run source ~/.zshrc and just type gsave. The alias is wrapped in single quo
 
 
 
-//##########  gitignore
+//##########  gitignore  
 View the .gitignore file itself
 ```bash
 cat .gitignore
