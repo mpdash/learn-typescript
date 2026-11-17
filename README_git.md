@@ -68,7 +68,7 @@ git push -u origin branch1
 After that, plain "git push" works.
 
 
-5. Open a pull request on GitHub
+5. Open a pull request on GitHub (It’s not a Git command. It’s a GitHub feature)
 Go to your repo on GitHub. A yellow banner appears: Compare & pull request. Click it.
 Add a title and short description.
 Click Create pull request.
