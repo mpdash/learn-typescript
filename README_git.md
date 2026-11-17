@@ -34,7 +34,7 @@ git pull origin main --allow-unrelated-histories
 ```
 
 
-//###############  Branch Workflow
+//###############  Branch Workflow  
 Here’s the full branch workflow, starting from where you are (only main on GitHub).
 1. Start from an up-to-date main
 ```bash
@@ -68,12 +68,12 @@ git push -u origin branch1
 After that, plain "git push" works.
 
 
-5. Open a pull request on GitHub (It’s not a Git command. It’s a GitHub feature)
-Go to your repo on GitHub. A yellow banner appears: Compare & pull request. Click it.
-Add a title and short description.
-Click Create pull request.
-Review the Files changed tab to check your changes.
-Click Merge pull request, then Confirm merge.
+5. Open a pull request on GitHub (It’s not a Git command. It’s a GitHub feature)  
+Go to your repo on GitHub. A yellow banner appears: Compare & pull request. Click it.  
+Add a title and short description.  
+Click Create pull request.  
+Review the Files changed tab to check your changes.  
+Click Merge pull request, then Confirm merge. 
 Click Delete branch (GitHub offers this right after merging).
 
 
